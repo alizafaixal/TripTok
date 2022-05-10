@@ -4,16 +4,16 @@ HTML, Bootstrap, Javascript, Asynchronous JavaScript, Node.js, Express, MongoDB,
 
 User functionality:
 
-View travel destinations
-View User reviews.
-Submit a review.
+View travel destinations,
+View User reviews,
+Submit a review,
 Send inquiry by submitting contact us form.
 
 Admin functionality:
-View list of destinations.
-Add/Update/Delete destination.
-View List of reviews.
-Delete review.
-View user inquiries. 
+View list of destinations,
+Add/Update/Delete destination,
+View List of reviews,
+Delete review,
+View user inquiries, 
 Delete inquiries.
 
