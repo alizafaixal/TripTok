@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Travel Blog</title>
+    <link rel="stylesheet" href="./css/style.css">
+   
+  
+   
+  
+    
+</head>
+<body>
+   <section class="header">
+       <div class="container">
+        <a href="../admin/index.html"><img src="./img/triptok.png" ></a>
+           <a href="./admin/index.html" class="loginBtn">Admin</a>
+
+       </div>
+        <!-- Modal -->
+        <div class="modal" tabindex="-1" id="contactModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Contact Us</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form class="mail-form contactForm">
+                            <div class="form-group">
+                                <label for="fname" class="pt-1 pb-1">Your First Name</label>
+                                <input class="form-control pb-2" type="text" id="fname" placeholder="Name" >
+    
+                            </div>
+                            <div class="form-group">
+                                <label for="lname" class="pt-1 pb-1">Your Last Name</label>
+                                <input class="form-control pb-2" type="text" id="lname" placeholder="Name" >
+    
+                            </div>
+    
+                            <div class="form-group">
+                                <label for="emailAddress" class="pt-2 pb-1">Your email</label>
+                                <input class="form-control pb-2" type="text" id="emailAddress" placeholder="Email" >
+    
+                            </div>
+                            <div class="form-group">
+                                <label for="phone" class="pt-2 pb-1">Your mobile number</label>
+                                <input class="form-control pb-2" type="text" id="phone" placeholder="0444 XXX XXX" >
+    
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="msg" class="pt-2 pb-1">Message</label>
+                                <textarea class="form-control mb-2" id="msg" rows="3"></textarea>
+                            </div>
+                            <input type="submit" class="btn btn-primary contactSubmitBtn">
+                        </form>
+                    </div>
+    
+    
+    
+    
+                </div>
+            </div>
+        </div>
+     <div class="banner_content">
+        <h1>Travel accross the globe</h1>
+        <p>Create a blog about your adventure or explore the existing blogs for exciting trips</p>
+        
+        <button class="btn btn-primary contactBtn" data-bs-toggle="modal" data-bs-target="#contactModal">Contact us</button>
+     </div>
+       <!-- <div class="input-group">
+           <input type="text" class="form-control" placeholder="Search country or city">
+           <div class="input-group-append">
+               <button type="submit" class="input-group-text btn">Search</button>
+           </div>
+       </div> -->
+   </section>
+   <section class="features">
+       <h1>Featured Destinations</h1>
+       <div class="container">
+           <div class="row features-row">
+              
+               
+           </div>
+       </div>
+   </section>
+    <section class="gallery">
+        <h1>Travelling gallery</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                   <div class="gallery-box">
+                    <img src="./img/travel-1.jpg" >
+                    <h4>Los Angeles</h4>
+                   </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="gallery-box">
+                     <img src="./img/travel-2.jpg" >
+                     <h4>Los Angeles</h4>
+                    </div>
+                 </div>
+                 <div class="col-md-3">
+                    <div class="gallery-box">
+                     <img src="./img/travel-3.jpg" >
+                     <h4>Los Angeles</h4>
+                    </div>
+                 </div>
+                 <div class="col-md-3">
+                    <div class="gallery-box">
+                     <img src="./img/travel-4.jpg" >
+                     <h4>Los Angeles</h4>
+                    </div>
+                 </div>
+            </div>
+        </div>
+    </section>
+    <section class="banner">
+        <div class="banner-highlights">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h2>Get a new destination featured</h2>
+                        <p>Send us an message about a new destination and we will add it to our destinations list.</p>
+                        <button type="button" class="bookBtn" data-bs-toggle="modal" data-bs-target="#contactModal">Send message</button>
+                    </div>
+                  
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="reviews">
+        <h1>User Reviews</h1>
+         <!-- Modal -->
+         <div class="modal" tabindex="-1" id="reviewModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Leave a review</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form class="mail-form reviewForm">
+                            <div class="form-group">
+                                <label for="name" class="pt-1 pb-1">Your Name</label>
+                                <input class="form-control pb-2" type="text" id="name" placeholder="Name" name="name">
+    
+                            </div>
+    
+                            <div class="form-group">
+                                <label for="email" class="pt-2 pb-1">Your email</label>
+                                <input class="form-control pb-2" type="text" id="email" placeholder="Email" name="email">
+    
+                            </div>
+                            <div class="form-group">
+                                <label for="destination" class="pt-2 pb-1">Review destionation</label>
+                                <input class="form-control pb-2" type="text" id="destination"  placeholder="Los Angeles" name="destination">
+                            </div>
+                            <div class="form-group">
+                                <label for="img" class="pt-2 pb-1">Image</label>
+                                <input class="form-control pb-2" type="text" id="img"  placeholder="Your photo URL" name="img">
+                            </div>
+                            <div class="form-group">
+                                <label for="review" class="pt-2 pb-1">Review</label>
+                                <textarea class="form-control mb-2" id="review" rows="3"></textarea>
+                            </div>
+                            <input type="submit" class="btn btn-primary reviewSubmitBtn">
+                        </form>
+                    </div>
+    
+    
+    
+    
+                </div>
+            </div>
+        </div>
+        <button class="btn btn-primary reviewBtn" data-bs-toggle="modal" data-bs-target="#reviewModal">Leave a review</button>
+       <div class="container">
+           <div class="row reviews-list">
+               
+
+           </div>
+       </div>
+    </section>
+
+    <section class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="./img/triptok.png" class="footer-logo">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur porro aspernatur commodi, soluta natus possimus enim explicabo rerum illo consequuntur.</p>
+                </div>
+                <div class="col-md-3">
+                    <h4>Features</h4>
+                    <p>Deals & Offers</p>
+                    <p>Customer review</p>
+                    <p>Cancellation Policy</p>
+                </div>
+                <div class="col-md-3">
+                    <h4>Quick Contact</h4>
+                    <p><i class="fa fa-phone-square" ></i> +61 404 507 951</p>
+                    <p><i class="fa fa-envelope" ></i> contact202@gmail.com</p>
+                    <p><i class="fa fa-home" ></i> xyz Road, ABC City</p>
+                   
+                </div>
+                <div class="col-md-3">
+                    <h4>Follow Us</h4>
+                    <p><i class="fa fa-facebook-official" ></i> Facebook</p>
+                    <p><i class="fa fa-youtube-play" ></i> Youtube</p>
+                    <p><i class="fa fa-twitter" ></i> Twitter</p>
+                </div>
+            </div>
+            <hr>
+           
+            <p class="copy">
+                Made with <i class="fa fa-heart" ></i> by Aliza
+            </p>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+    integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+    crossorigin="anonymous"></script>
+    <script src="./js/addReview.js"></script>
+    <script src="./js/showReview.js"></script>
+    <script src="./js/addContact.js"></script>
+    <script src="./js/showdestination.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,303 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../img/banner1.jpg') ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 20px;
+}
+
+.header img{
+    width: 170px;
+    float: left;
+}
+.loginBtn{
+    width: 100px;
+    padding: 8px 0;
+    outline: none !important;
+    border-radius:50px;
+    border: 2px solid #fff;
+    background: transparent;
+    color: #fff; 
+    float: right;
+    text-decoration: none;
+    text-align: center;
+}
+.reviewBtn , .reviewSubmitBtn , .contactSubmitBtn{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding: 8px 18px;
+    border-radius: 50px;
+    border: 2px solid #fff;
+    background: transparent;
+    margin-top: -10px;
+    color: #fff;
+    background-image: linear-gradient(#5381af, #d3b0ee);
+    font-weight: bold;
+}
+.reviewSubmitBtn, .contactSubmitBtn{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.reviewBtn:hover, .reviewSubmitBtn:hover , .contactSubmitBtn:hover{
+    background-image: linear-gradient( #2d557d, #9610fb);
+    font-weight: 600;
+}
+.header h1{
+    text-align: center;
+    color: #fff;
+    padding-top: 260px;
+    padding-bottom: 0;
+    font-size: 55px;
+    text-transform: capitalize;
+}
+.header p{
+    color: #fff;
+    text-align: center;
+    margin: 18px 0;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.input-group{
+    width: 90% !important;
+    max-width: 500px;
+    border-radius: 30px;
+    background: #fff;
+    margin: auto;
+    padding: 2px;
+}
+
+
+.contactBtn{
+    width: 150px;
+    height: 50px;
+    font-weight: bold;
+    background-image: linear-gradient(#00ff7e,#1f3d90);
+    border: 0 !important;
+    color: #fff !important;
+    padding: 0 25px !important;
+    border-radius: 30px !important;
+    box-shadow: none !important;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+/* features section */
+.features{
+    padding: 100px 0;
+}
+.features h1 , .gallery h1 , .reviews h1{
+    padding-bottom: 30px;
+    text-align: center;
+}
+.feature-img img{
+    width: 100%;
+}
+
+.price{
+    width: 50px;
+    height: 50px;
+    font-weight: 600;
+    color: #fff;
+    background: #ff5722;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+    position: absolute;
+    left: 20px;
+    bottom: -25px;
+}
+.feature-img{
+    position: relative;
+}
+.rating{
+    padding: 3px;
+    float: right;
+    background: #fff;
+    bottom: -1px;
+    right: 0;
+    position: absolute;
+}
+.features .fa{
+    font-size: 15px;
+    color: #ff5722;
+}
+.feature-details{
+    padding: 20px;
+    text-align: justify;
+}
+.feature-details h4{
+    font-weight: 600;
+    margin-top: 20px;
+}
+.feature-details .fa{
+margin-right: 5px;
+
+}
+.feature-box{
+    box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+    margin-bottom: 30px;
+}
+
+
+/* gallery section */
+.gallery{
+    padding: 100px 0;
+    background: #efefef;
+}
+.gallery-box img{
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.gallery-box img:hover{
+    transform: scale(1.1);
+}
+.gallery-box h4{
+    display: block;
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    text-shadow: -2px 2px 2px #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.gallery-box{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+/* banner section */
+
+.banner{
+    height: 80vh;
+    background-image: url('../img/banner2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 14%;
+}
+
+.banner-highlights{
+    padding: 70px 0;
+    background: rgba(0,0,0,0.7);
+    text-align: center;
+    color: #fff;
+}
+.bookBtn{
+    padding: 9px 23px;
+    outline: none !important;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+}
+
+.reviews{
+    padding: 100px 0 ;
+}
+.review-box{
+    text-align: center;
+    box-shadow: 0 0 10px 0 rgba(0,0,100,0.2) ;
+    padding-bottom: 50px;
+    position: relative;
+}
+.review-box p{
+    padding: 50px 10px 10px 10px;
+}
+
+.review-box p::before{
+    content: '\201d';
+    display: block;
+    position: absolute;
+    font-size: 100px;
+    color: #6495ed;
+    font-family: sans-serif;
+    left: 44%;
+    top: -20px;
+   
+}
+.reviews img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+    margin: -30px 0 20px 40%;
+
+}
+
+.footer{
+    padding: 100px 20px 15px;
+    background-image: linear-gradient(#2d557d, #9610fb);
+    color: #fff;
+}
+.footer-logo{
+    width: 150px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.footer h4{
+    margin-top: 15px ;
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+.footer p{
+    font-size: 12px;
+    text-align: justify;
+    padding-right:35px ;
+}
+
+.footer .row .fa{
+    padding-right: 20px;
+    font-size: 15px;
+}
+
+.footer hr{
+    margin-top: 10px;
+    background: #efefef;
+}
+.fa-heart{
+    margin: 0 5px;
+    color: #f44336;
+}
+.footer .copy{
+    text-align: center;
+}
+
+.admin h1{
+    text-align: center;
+    color: black;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 55px;
+}
+
+.admin .mt-10{
+    margin-top: 120px;
+}
+.modal-title{
+text-align: center;
+width: 100%; 
+}
+
+
+
+.banner_content{
+    width: 80%;
+    margin: 0 auto;
+}

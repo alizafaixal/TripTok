@@ -1,0 +1,49 @@
+.flex-column{
+    flex-direction: column !important;
+}
+.fix{
+    width: 50%;
+    margin: 0 auto;
+    padding-left: 10rem;
+    padding-right: 9rem;
+    text-align: center;
+    padding-top: 2rem;
+}
+.w-80{
+    width: 80%;
+    margin: 28px auto;
+}
+.btn-link{
+    text-decoration: none;
+}
+.localfix{
+    width: 38%;
+    margin: 0px auto;
+    padding-top: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.fix-height{
+    height: 351px;
+    overflow: scroll;
+}
+
+.fix-height::-webkit-scrollbar {
+    width: 5px;
+    height: 3px;  
+  }
+
+/* Track */
+.fix-height::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 2px #000; 
+    border-radius: 4px;
+  }
+   
+  /* Handle */
+  .fix-height::-webkit-scrollbar-thumb {
+    background: #0d6efd; 
+    border-radius: 4px;
+  }
